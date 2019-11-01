@@ -1,0 +1,14 @@
+{
+  "name": "HOA-Management-App-Requests",
+  "version": "1.0.0",
+  "description": "CS-130-1 Final Project. Web application for HOA management. Maintenance request team.",
+  "main": "index.js",
+  "repository": "https://github.com/bminerWestmont/HOA-Management-App-Requests/",
+  "author": "bminer@westmont.edu",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.14.7"
+  }
+}
