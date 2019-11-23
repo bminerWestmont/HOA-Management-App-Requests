@@ -1,3 +1,21 @@
+<?php
+
+$username_homeowner = "homeowner";
+$username_manager = "manager";
+
+if (isset($_POST['username'])) {
+  $username = $_POST['username'];
+
+  if ($username === $username_homeowner) {
+    header("Location: ../home-owner/");
+  }
+  else if ($username === $username_manager) {
+    header("Location: ../manager/");
+  }
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,7 +40,7 @@
 
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-<div id="id01" class="modal">
+<!-- <div id="id01" class="modal"> -->
   
   <form class="modal-content animate" action="./" method="post">
     <div class="imgcontainer">
@@ -32,10 +50,10 @@
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="text" placeholder="Enter Username" name="username" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="password" placeholder="Enter Password" name="password" required>
         
       <button type="submit">Login</button>
       <label>
@@ -43,10 +61,10 @@
       </label>
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
+    <!-- <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
+    </div> -->
   </form>
 </div>
 </body>
