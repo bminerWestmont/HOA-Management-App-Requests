@@ -16,35 +16,55 @@
   </head>
   <!-- //accent color #f2cf33 -->
   <!-- //main color  #7dc9b5 -->
-<body>
+  <body>
 
-  <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">HO Landing Page</h1>
-    <p class="lead">This is the landing page for a homwowner in our HOA app</p>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">  
+    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> <!-- What is this image trying to point to? this url does not exist in this directory... -->
+  </a></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">NEW REQUEST</a>
+      <a class="nav-item nav-link" href="./ReceivedRequests/index.php">RECEIVED REQUESTS</a>
+      <a class="nav-item nav-link" href="#">BUILDING MAINTENANCE</a>
+      <a class="nav-item nav-link" href="#">CALENDAR</a>
+      <a class="nav-item nav-link" href="#">CONTACT</a>
+     
+    </div>
   </div>
-</div>
-<div class="container">
+</nav>
 
-  <div class="row">
-    <button class="col btn btn-lg bg-primary"> content
-    </button>
-  </div>
-   
-   <div class="row">
-    <button class="col btn btn-lg border-top bg-primary">content</button>
-  </div>
-  
-  <div class="row">
-    <div class="col">.</div>
-  </div>
-  
-  <div class="row">
-    <button class="col-sm btn btn-lg bg-primary">received requests</button>
-    <div class="col-sm-1"></div>
-    <button class="col-sm btn btn-lg bg-primary border">new request</button>
-  </div>
-</div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">HO Landing Page</h1>
+        <p class="lead">This is the landing page for a homwowner in our HOA app</p>
+      </div>
+    </div>
+    <div class="container">
 
-</body>
-</html>
+      <div class="row">
+        <button class="col btn btn-lg bg-primary"> content
+        </button>
+      </div>
+
+      <div class="row">
+        <button class="col btn btn-lg border-top bg-primary">content</button>
+      </div>
+
+      <div class="row">
+        <div class="col">.</div>
+      </div>
+
+      <div class="row">
+        <a  href="./ReceivedRequests/index.php" class="col-sm btn btn-lg bg-primary" href="./ReceivedRequests/index.php">received requests</a>
+        <div class="col-sm-1"></div>
+        <button class="col-sm btn btn-lg bg-primary border">new request</button>
+      </div>
+    </div>
+
+  </body>
+  </html>
