@@ -124,3 +124,11 @@ span.psw {
      width: 100%;
   }
 }
+
+.list-group-item .user {
+  float: right!important;
+}
+.list-group-item .ticket-num {
+  font-size: 80%;
+  font-weight: 400;
+}
