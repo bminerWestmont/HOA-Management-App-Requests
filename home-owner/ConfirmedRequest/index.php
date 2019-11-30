@@ -57,71 +57,12 @@
 
 
 
-<h1> New Request </h1>
-
-
-
-
-<div class="form-group">
-    <label for="exampleFormControlSelect1">Type:</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>(I forgot what our types were)</option>
-      <option>placeholder 2</option>
-      <option>placeholder 3</option>
-      <option>placeholder 4</option>
-      <option>placeholder 5</option>
-    </select>
-  </div>
-
-
-
-<div class="form-group">
-    <label for="exampleFormControlTextarea1">Description</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
- 
-
-<div class="form-group">
-    <label for="exampleFormControlSelect1">Where:</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>(I forgot the locations)</option>
-      <option>In my appartment</option>
-      <option>In the hall</option>
-    </select>
-  </div>
-
-
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Urgency:</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>Very urgent</option>
-      <option>Somewhat urgent</option>
-      <option>Not very urgent</option>
-    </select>
-  </div>
-
-
-
-<form>
-  <div class="form-group">
-    <label for="exampleFormControlFile1">Upload Images</label>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-  </div>
-</form>
-
-
-<button type="button" onclick="window.location.href = '../ConfirmedRequest/index.php';" >Submit</button>
-
-
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<button class="btn btn-primary" type="submit">Button</button>
-<input class="btn btn-primary" type="button" value="Input">
-<input class="btn btn-primary" type="submit" value="Submit">
-<input class="btn btn-primary" type="reset" value="Reset">
+<h1> Request recieved! </h1>
 
 <<div class="row">
-        <a  href="../ConfirmedRequest/index.php" class="col-sm btn btn-lg bg-primary" href="./ReceivedRequests/index.php">Submit Request</a>
+        <a  href="../index.php" class="col-sm btn btn-lg bg-primary" href="./ReceivedRequests/index.php">Go Home</a>
 <div class="col-sm-1"></div>
+
 
 
 
