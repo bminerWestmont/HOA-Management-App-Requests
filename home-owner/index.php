@@ -28,7 +28,7 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">NEW REQUEST</a>
+      <a class="nav-item nav-link" href="./requests/index.php">NEW REQUEST</a>
       <a class="nav-item nav-link" href="./ReceivedRequests/index.php">RECEIVED REQUESTS</a>
       <a class="nav-item nav-link" href="#">BUILDING MAINTENANCE</a>
       <a class="nav-item nav-link" href="#">CALENDAR</a>
@@ -60,11 +60,10 @@
       </div>
 
       <div class="row">
-        <a  href="./ReceivedRequests/index.php" class="col-sm btn btn-lg bg-primary" href="./ReceivedRequests/index.php">received requests</a>
+        <a  href="./ReceivedRequests/index.php" class="col-sm btn btn-lg bg-primary">Received Requests</a>
         <div class="col-sm-1"></div>
-        <button class="col-sm btn btn-lg bg-primary border">new request</button>
+        <a  href="./requests/index.php" class="col-sm btn btn-lg bg-primary">New Request</a>      </div>
       </div>
-    </div>
 
   </body>
   </html>
