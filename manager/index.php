@@ -59,10 +59,23 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col border bg-warning">Today's Schedule</div>
+			<div class="col-md-5">
+				<div class="card">
+					<div class="card-header">
+						Today's Maintenance
+					</div>
+					<ul class="list-group list-group-flush">
+						<li onclick="location.href = #"class="list-group-item"><span class="title">Toilet overflowed</span><span class="user text-muted">Mary H. #102</span><div class="ticket-num text-muted">Ticket #42069</div></li>
+						<li class="list-group-item"><span class="title">Light in hallway flickering</span><span class="user text-muted">John B. #219</span><div class="ticket-num text-muted">Ticket #69420</div></li>
+						<li class="list-group-item"><span class="title">Pool filter not working</span><span class="user text-muted">Frank C. #157</span><div class="ticket-num text-muted">Ticket #11111</div></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div class="row">
-			<button class="col border btn">ticket#</button>
+
+
+	<!--	<div class="row">
+			<button class="col border btn"></button>
 			<div class="col-sm-2"></div>
 			<div class="col border">all the maintenance</div>
 		</div>
@@ -76,7 +89,7 @@
 			<div class="col-sm-2"></div>
 			<div class="col border">today</div>
 		</div>
-
+-->
 	</div>
 
 
