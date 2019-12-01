@@ -30,11 +30,11 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="../index.php">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link active" href="#">NEW REQUEST</a>
+      <a class="nav-item nav-link active" href="./index.php">NEW REQUEST</a>
       <a class="nav-item nav-link" href="../ReceivedRequests/index.php">RECEIVED REQUESTS</a>
       <a class="nav-item nav-link" href="#">BUILDING MAINTENANCE</a>
       <a class="nav-item nav-link" href="#">CALENDAR</a>
-      <a class="nav-item nav-link" href="#">CONTACT</a>
+      <a class="nav-item nav-link" href="../contact/index.php">CONTACT</a>
      
     </div>
   </div>

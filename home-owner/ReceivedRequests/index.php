@@ -31,7 +31,7 @@
   				<a class="nav-item nav-link active" href="#">RECEIVED REQUESTS</a>
   				<a class="nav-item nav-link" href="#">BUILDING MAINTENANCE</a>
   				<a class="nav-item nav-link" href="#">CALENDAR</a>
-  				<a class="nav-item nav-link" href="#">CONTACT</a>
+  				<a class="nav-item nav-link" href="../contact/index.php">CONTACT</a>
 
   			</div>
   		</div>
