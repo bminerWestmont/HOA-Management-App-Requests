@@ -41,7 +41,7 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">HO Landing Page</h1>
-        <p class="lead">This is the landing page for a homwowner in our HOA app</p>
+        <p class="lead">This is the landing page for a homeowner in our HOA app</p>
       </div>
     </div>
     <div class="container">
@@ -60,10 +60,11 @@
       </div>
 
       <div class="row">
-        <a  href="./ReceivedRequests/index.php" class="col-sm btn btn-lg bg-primary">Received Requests</a>
+        <button onclick="window.location.href='./ReceivedRequests/index.php';" class="col-sm btn-lg btn bg-primary">Received Requests</button>
         <div class="col-sm-1"></div>
-        <a  href="./requests/index.php" class="col-sm btn btn-lg bg-primary">New Request</a>      </div>
+        <button onclick="window.location.href='./requests/index.php';" class="col-sm btn btn-lg bg-primary">New Request</button>
       </div>
+    </div>
 
   </body>
   </html>
