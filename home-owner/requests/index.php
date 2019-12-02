@@ -30,11 +30,11 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="../index.php">HOME <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link active" href="./index.php">NEW REQUEST</a>
+      <a class="nav-item nav-link active" href="#">NEW REQUEST</a>
       <a class="nav-item nav-link" href="../ReceivedRequests/index.php">RECEIVED REQUESTS</a>
       <a class="nav-item nav-link" href="#">BUILDING MAINTENANCE</a>
       <a class="nav-item nav-link" href="#">CALENDAR</a>
-      <a class="nav-item nav-link" href="../contact/index.php">CONTACT</a>
+      <a class="nav-item nav-link" href="#">CONTACT</a>
      
     </div>
   </div>
@@ -56,22 +56,32 @@
 
 
 
-
 <h1> New Request </h1>
 
 
 
 
+<div class="container">
+
+      <div class="row">
+         
+
 <div class="form-group">
     <label for="exampleFormControlSelect1">Type:</label>
     <select class="form-control" id="exampleFormControlSelect1">
-      <option>(I forgot what our types were)</option>
-      <option>placeholder 2</option>
-      <option>placeholder 3</option>
-      <option>placeholder 4</option>
-      <option>placeholder 5</option>
+      <option>Plumbing</option>
+      <option>Electrical</option>
+      <option>Treescaping</option>
+      <option>Wall / ground repair</option>
+      <option>Pest control</option>
     </select>
   </div>
+  
+
+      </div>
+
+
+
 
 
 
@@ -81,17 +91,37 @@
   </div>
  
 
+
+
+
+<div class="container">
+
+      <div class="row">
+         
+
 <div class="form-group">
     <label for="exampleFormControlSelect1">Where:</label>
     <select class="form-control" id="exampleFormControlSelect1">
-      <option>(I forgot the locations)</option>
       <option>In my appartment</option>
       <option>In the hall</option>
     </select>
   </div>
 
 
-  <div class="form-group">
+  </div>
+
+      </div>
+
+
+
+
+
+<div class="container">
+
+      <div class="row">
+         
+
+ <div class="form-group">
     <label for="exampleFormControlSelect1">Urgency:</label>
     <select class="form-control" id="exampleFormControlSelect1">
       <option>Very urgent</option>
@@ -110,18 +140,21 @@
 </form>
 
 
+  </div>
+  
+      </div>
+
+
+
+
 <button type="button" onclick="window.location.href = '../ConfirmedRequest/index.php';" >Submit</button>
+        
 
 
-<a class="btn btn-primary" href="#" role="button">Link</a>
-<button class="btn btn-primary" type="submit">Button</button>
-<input class="btn btn-primary" type="button" value="Input">
-<input class="btn btn-primary" type="submit" value="Submit">
-<input class="btn btn-primary" type="reset" value="Reset">
 
-<<div class="row">
-        <a  href="../ConfirmedRequest/index.php" class="col-sm btn btn-lg bg-primary" href="./ReceivedRequests/index.php">Submit Request</a>
-<div class="col-sm-1"></div>
+
+
+
 
 
 
