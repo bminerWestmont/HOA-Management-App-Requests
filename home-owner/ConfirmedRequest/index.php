@@ -22,7 +22,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">  
-    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> <!-- What is this image trying to point to? this url does not exist in this directory... -->
+    <img src="./media/logo.jpg" width="30" height="30" alt=""> 
   </a></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -47,8 +47,8 @@
 
 <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">HO New Request</h1>
-            <p class="lead">This is where to make a new request</p>
+            <h1 class="display-4">Home Owner New Request</h1>
+            <p class="lead">If you have any maintenance requests, fixes, or general concerns about the building safety, please fill out this request form.</p>
         </div>
     </div>
 
@@ -57,7 +57,7 @@
 
 
 
-<h1> Request recieved! </h1>
+<h1> Request Recieved! Management will get right on it and notify you when we have begun working on your request. </h1>
 
 <<div class="row">
         <a  href="../index.php" class="col-sm btn btn-lg bg-primary" href="./ReceivedRequests/index.php">Go Home</a>
