@@ -56,10 +56,10 @@ $filename = "./" . basename(__FILE__);
     </div>
 
 
-    <div class="row top-buffer mainBlue">
-      <div class="col"> <h2>New Request:</h2></div>
+    <div class="row top-buffer ">
+      <div class="col-5 mainBlue"> <h2>New Request:</h2></div>
       <div class="col-1"></div>
-      <div class="col"> <h2>Previous Requests:</h2></div>
+      <div class="col mainBlue"> <h2>Previous Requests:</h2></div>
     </div>
 
     <div class="row">
