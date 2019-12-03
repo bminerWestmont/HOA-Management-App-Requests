@@ -15,12 +15,13 @@
     <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="./js/script.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
   </head>
 <body>
 <?php
-  $path = "../abs/media/logo.jpg";
+  $image_path = "../abs/media/logo.jpg";
   print_home_owner_navbar($path);
 ?>
 

@@ -37,7 +37,6 @@ function print_manager_navbar ($path) {
         "<a class=\"nav-item nav-link\" href=\"#\">MANAGE REQUESTS</a>" .
         "<a class=\"nav-item nav-link\" href=\"#\">TODAY'S SCHEDULE</a>" .
         "<a class=\"nav-item nav-link\" href=\"#\">VENDORS</a>" .
-        "<a class=\"nav-item nav-link\" href=\"#\">CALENDAR</a>" .
       "</div>" .
     "</div>" .
   "</nav>";
