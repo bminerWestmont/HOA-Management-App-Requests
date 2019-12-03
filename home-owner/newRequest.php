@@ -19,7 +19,7 @@ $filename = "./" . basename(__FILE__);
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head>
 <body>
   <?php
@@ -68,7 +68,7 @@ $filename = "./" . basename(__FILE__);
 
 
     <div class="form-group">
-      <label for="exampleFormControlTextarea1">Description</label>
+      <label for="exampleFormControlTextarea1"> <br>Description</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
@@ -107,7 +107,7 @@ $filename = "./" . basename(__FILE__);
 
 
        <div class="form-group">
-        <label for="exampleFormControlSelect1">Urgency:</label>
+        <label for="exampleFormControlSelect1"> <br>Urgency:</label>
         <select class="form-control" id="exampleFormControlSelect1">
           <option>Very urgent</option>
           <option>Somewhat urgent</option>
@@ -119,7 +119,7 @@ $filename = "./" . basename(__FILE__);
 
       <form>
         <div class="form-group">
-          <label for="exampleFormControlFile1">Upload Images</label>
+          <label for="exampleFormControlFile1"> <br>Upload Images</label>
           <input type="file" class="form-control-file" id="exampleFormControlFile1">
         </div>
       </form>
@@ -129,10 +129,11 @@ $filename = "./" . basename(__FILE__);
 
   </div>
 
+<br>
+<br>
 
 
-
-  <button type="button" onclick="window.location.href = 'confirmedRequest.php';" >Submit</button>
+<button type="button" onclick="window.location.href = 'confirmedRequest.php';" >Submit</button>
 
 
 
