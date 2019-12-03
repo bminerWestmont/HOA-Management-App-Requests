@@ -29,35 +29,35 @@ $filename = "./" . basename(__FILE__);
 	?>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h1 class="display-4">HO Manager Langing Page</h1>
-			<p class="lead">This is the landing page for a manager in our HOA app</p>
+			<h1 class="display-4">Welcome Back, Jane.</h1>
+			<p class="lead">Below are the most recent requests that have come in as well as all the maintancence that is happening in the building today. </p>
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="row">
 			<!-- <div class="col border bg-primary">Overdue requests</div> -->
-			<div class="col-md-5">
+			<div class="col-md-5 padding-bottom">
 				<div class="card">
-					<div class="card-header">
+					<div class="card-header jumboBG">
 						Open Requests
 					</div>
 					<ul class="list-group list-group-flush">
-						<li class="list-group-item"><span class="title">Toilet overflowed</span><span class="user text-muted">Mary H. #102</span><div class="ticket-num text-muted">Ticket #42069</div></li>
-						<li class="list-group-item"><span class="title">Light in hallway flickering</span><span class="user text-muted">John B. #219</span><div class="ticket-num text-muted">Ticket #69420</div></li>
-						<li class="list-group-item"><span class="title">Pool filter not working</span><span class="user text-muted">Frank C. #157</span><div class="ticket-num text-muted">Ticket #11111</div></li>
+						<li class="list-group-item"><span class="title">Toilet overflowed     </span><span class="user text-muted">Mary H. #F102</span><div class="ticket-num text-muted">Ticket #42069</div></li>
+						<li class="list-group-item"><span class="title">Light in hallway flickering    </span><span class="user text-muted">John B. #C219</span><div class="ticket-num text-muted">Ticket #69420</div></li>
+						<li class="list-group-item"><span class="title">Pool filter not working   </span><span class="user text-muted">Frank C. #A157</span><div class="ticket-num text-muted">Ticket #11111</div></li>
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-5">
+			<div class="col-md-5 padding-bottom ">
 				<div class="card">
-					<div class="card-header">
+					<div class="card-header jumboYllw padding-bottom">
 						Today's Schedule
 					</div>
 					<ul class="list-group list-group-flush">
-						<li onclick="location.href = #"class="list-group-item"><span class="title">Toilet overflowed</span><span class="user text-muted">Mary H. #102</span><div class="ticket-num text-muted">Ticket #42069</div></li>
-						<li class="list-group-item"><span class="title">Light in hallway flickering</span><span class="user text-muted">John B. #219</span><div class="ticket-num text-muted">Ticket #69420</div></li>
-						<li class="list-group-item"><span class="title">Pool filter not working</span><span class="user text-muted">Frank C. #157</span><div class="ticket-num text-muted">Ticket #11111</div></li>
+						<li onclick="location.href = #"class="list-group-item"><span class="title">Light fixture fix  </span><span class="user text-muted">Ellen Q. #b322</span><div class="ticket-num text-muted">Ticket #69422</div></li>
+						<li class="list-group-item"><span class="title">Plummer fixing pipes  </span><span class="user text-muted">General Building  </span><div class="ticket-num text-muted">Ticket #77712</div></li>
+						<li class="list-group-item"><span class="title">Fix outside gate  </span><span class="user text-muted">David D. #A764</span><div class="ticket-num text-muted">Ticket #10076</div></li>
 					</ul>
 				</div>
 			</div>
@@ -81,6 +81,7 @@ $filename = "./" . basename(__FILE__);
 		</div>
 	-->
 </div>
+
 
 
 </body>

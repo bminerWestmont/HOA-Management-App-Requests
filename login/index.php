@@ -46,7 +46,7 @@ if (isset($_POST['username'])) {
 
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php" method="post">
+ <!--- <form class="modal-content animate" action="/action_page.php" method="post">  SOMETHING WITH THIS CODE ISNT LETTING THE LOGIN RUN --->
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>

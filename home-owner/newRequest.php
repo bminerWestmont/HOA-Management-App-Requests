@@ -27,7 +27,7 @@ $filename = "./" . basename(__FILE__);
   print_home_owner_navbar($image_path, $filename);
   ?>
 
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid secondaryYllw">
     <div class="container">
       <h1 class="display-4">New Request</h1>
       <p class="lead">If you have any maintenance requests, fixes, or general concerns about the building safety, please fill out this request form.</p>

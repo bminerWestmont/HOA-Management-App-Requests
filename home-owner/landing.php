@@ -30,7 +30,7 @@ $filename = "./" . basename(__FILE__);
   print_home_owner_navbar($image_path, $filename);
   ?>
 
-  <div class="jumbotron jumbotron-fluid jumboYllw">
+  <div class="jumbotron jumbotron-fluid secondaryYllw">
     <div class="container">
       <h1 class="display-4">Welcome, Dan!</h1>
       <h3 class= "display" >Apartment number: B47 </h3>
@@ -44,36 +44,35 @@ $filename = "./" . basename(__FILE__);
     </div>
 
     <div class="row h2 secondaryColor">
-      Appointment Date:
+      Appointment Date: TBD
     </div>
 
     <div class="row h2 secondaryColor">
-      Appointment Time:
+      Appointment Time: TBD
     </div>
 
     <div class="row h2 secondaryColor">
-      Vendor Assigned:
+      Vendor Assigned: TBD
     </div>
 
 
-    <div class="row top-buffer">
+    <div class="row top-buffer mainBlue">
       <div class="col"> <h2>New Request:</h2></div>
       <div class="col-1"></div>
       <div class="col"> <h2>Previous Requests:</h2></div>
     </div>
 
     <div class="row">
-      <div class="col"> <h2>Submit a new</h2></div>
+      <div class="col"> <p>Submit a new maintenance request</p></div>
       <div class="col-1"></div>
-      <div class="col"> <h2>See your previous</h2></div>
-    </div>
+      <button onclick="window.location.href='./newRequest.php';" class="col btn-sm btn jumboYllw">New Request</button>
+      <div class="col-1"></div>
 
     <div class="row">
-      <div class="col"><h2> maintenance request</h2></div>
+      <div class="col"><p> Take a look at previous maintenance requests</p></div>
       <div class="col-1"></div>
-      <div class="col"><h2> maintenance requests</h2></div>
-    </div>
-
+      <button onclick="window.location.href='./receivedRequests.php';" class="col btn-sm btn jumboYllw">Received Requests</button>
+      <div class="col-1"></div>
 
   </body>
   </html>

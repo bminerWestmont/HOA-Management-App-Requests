@@ -30,8 +30,8 @@
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Manager Assign Vendor</h1>
-      <p class="lead">This is the page for a manager to assign a vendor to a request ticket</p>
+      <h1 class="display-4">Manage Requests </h1>
+      <p class="lead">You can see open requests and fulfill the tickets as desired. </p>
     </div>
   </div>
   <div class="container">

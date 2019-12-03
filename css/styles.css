@@ -114,17 +114,25 @@ ol {
   font-size: 30px;
 }
 .jumboBG{
-  background-color: #5ec3c4;
+  background-color: #7ac1c4;
 }
 
 .jumboYllw{
-  background-color: #ede3c7;
+  background-color: #e6ce75;
 }
 
 .secondaryColor {
   background-color: #d1dcde;
 }
 
-.mainBlue {
-  background-color: 
+.secondaryYllw{
+  background-color: #f5edd3;
+}
+
+.mainBlue{
+   background-color: #5ec3c4;
+}
+
+.padding{
+  padding-bottom: 10%;
 }
