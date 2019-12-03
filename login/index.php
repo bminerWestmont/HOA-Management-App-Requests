@@ -29,14 +29,19 @@ if (isset($_POST['username'])) {
     <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../node_modules/@fortawesome/fontawesome-free/css/all.css"> -->
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
   </head>
 <body>
 
-<h2>The Bubble</h2>
-
+<div class="jumbotron jumbotron-fluid jumboYllw">
+    <div class="container">
+        <h1 class="display-4">Welcome to The Bubble!</h1>
+        <p class="lead"> Please Login below. If you are new to the complex, please contact the manager for your login information.  </p>
+        <p class="lead"> You can reach the manager, Jane Doe, at 805.234.5567 </p>
+    </div>
+</div>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
@@ -61,7 +66,6 @@ if (isset($_POST['username'])) {
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
 </div>

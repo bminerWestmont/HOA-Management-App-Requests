@@ -132,7 +132,7 @@ $filename = "./" . basename(__FILE__);
 
 
 
-  <button type="button" onclick="window.location.href = '../confirmedRequest.php';" >Submit</button>
+  <button type="button" onclick="window.location.href = 'confirmedRequest.php';" >Submit</button>
 
 
 

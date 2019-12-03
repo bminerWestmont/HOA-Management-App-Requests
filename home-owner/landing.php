@@ -30,27 +30,28 @@ $filename = "./" . basename(__FILE__);
   print_home_owner_navbar($image_path, $filename);
   ?>
 
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid jumboYllw">
     <div class="container">
-      <h1 class="display-4">HO Landing Page</h1>
-      <p class="lead">This is the landing page for a homeowner in our HOA app</p>
+      <h1 class="display-4">Welcome, Dan!</h1>
+      <h3 class= "display" >Apartment number: B47 </h3>
+      <p class="lead">Below you can see the status of your most recent request, create a new request, or see previous maintenance requests you have sumbmitted. </p>
     </div>
   </div>
   <div class="container">
     
-    <div class="row h1">
+    <div class="row h1 jumboBG">
       Live Update Of Request : Pending    
     </div>
 
-    <div class="row h2">
+    <div class="row h2 secondaryColor">
       Appointment Date:
     </div>
 
-    <div class="row h2">
+    <div class="row h2 secondaryColor">
       Appointment Time:
     </div>
 
-    <div class="row h2">
+    <div class="row h2 secondaryColor">
       Vendor Assigned:
     </div>
 

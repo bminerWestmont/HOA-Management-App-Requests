@@ -73,6 +73,11 @@ ol {
   padding-left: 0px;
 }
 
+.cancelbtn{
+  background-color:#a32b29;
+  color: white;
+}
+
 .content {
   margin: 0px 12px;
 }
@@ -110,4 +115,16 @@ ol {
 }
 .jumboBG{
   background-color: #5ec3c4;
+}
+
+.jumboYllw{
+  background-color: #ede3c7;
+}
+
+.secondaryColor {
+  background-color: #d1dcde;
+}
+
+.mainBlue {
+  background-color: 
 }
