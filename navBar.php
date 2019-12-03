@@ -1,3 +1,4 @@
+      <img src="../../media/logo.jpg" class="img" width="200" height="100"> 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">  
