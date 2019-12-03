@@ -16,7 +16,9 @@
   <script type="text/javascript" src="../js/script.js"></script>
 
   <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+
+   
 </head>
 <!-- //accent color #f2cf33 -->
 <!-- //main color  #7dc9b5 -->
@@ -33,25 +35,47 @@
     </div>
   </div>
   <div class="container">
-    <div class="row">
-      <button class="col btn btn-lg bg-primary"> content
-      </button>
+    
+    <div class="row h1">
+      Live Update Of Request : Pending    
     </div>
 
-    <div class="row">
-      <button class="col btn btn-lg border-top bg-primary">content</button>
+    <div class="row h2">
+      Appointment Date:
     </div>
 
-    <div class="row">
-      <div class="col">.</div>
+    <div class="row h2">
+      Appointment Time:
     </div>
 
-    <div class="row">
-      <button onclick="window.location.href='./receivedRequests.php';" class="col-sm btn-lg btn bg-primary">Received Requests</button>
-      <div class="col-sm-1"></div>
-      <button onclick="window.location.href='./newRequest.php';" class="col-sm btn btn-lg bg-primary">New Request</button>
+    <div class="row h2">
+      Vendor Assigned:
     </div>
-  </div>
+
+
+    <div class="row top-buffer">
+      <div class="col"> <h2>New Request:</h2></div>
+      <div class="col-1"></div>
+      <div class="col h2"> Previous Requests:</div>
+    </div>
+
+   <div class="row">
+      <div class="col h2"> Submit a new</div>
+      <div class="col-1"></div>
+      <div class="col h2"> See your previous</div>
+    </div>
+
+  <div class="row">
+        <div class="col h2"> maintenance request</div>
+        <div class="col-1"></div>
+        <div class="col h2"> maintenance requests</div>
+      </div>
+
 
 </body>
 </html>
+
+<!-- 
+<button onclick="window.location.href='./receivedRequests.php';" class="col btn-lg btn bg-primary">New Request</button>
+      <div class="col-1"></div>
+      <button onclick="window.location.href='./newRequest.php';" class="col btn btn-lg bg-primary">Previous Requests</button> -->
