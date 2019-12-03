@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <title>HOA Home-Owner Contact</title>
+    <title>HOA HomeOwner Contact Page</title>
 
     <script type="text/javascript" src="../../node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -41,7 +41,16 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Contact</h1>
-        <p class="lead">This is the contact page</p>
+        <p class="lead">Have any questions or concerns around the building? Feel free to contact us!</p>
       </div>
     </div>
     <div class="container">
+
+      <h1> Manager: Jane Doe </h1>
+           <h2> 805.234.5567 </h2>
+
+      <h1> Managing Comany: HOA Inc. </h1>
+           <h2> 1.800.334.3322 </h2>
+
+      <h1> Board Members:  </h1>
+           <h2> 805.234.5567 </h2>
