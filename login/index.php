@@ -7,10 +7,10 @@ if (isset($_POST['username'])) {
   $username = $_POST['username'];
 
   if ($username === $username_homeowner) {
-    header("Location: ../home-owner/");
+    header("Location: ../home-owner/landing.php");
   }
   else if ($username === $username_manager) {
-    header("Location: ../manager/");
+    header("Location: ../manager/landing.php");
   }
 }
 
@@ -27,11 +27,11 @@ if (isset($_POST['username'])) {
 
     <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
 
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" type="text/css" href="../node_modules/@fortawesome/fontawesome-free/css/all.css"> -->
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
   </head>
 </head>
 <body>
@@ -45,7 +45,7 @@ if (isset($_POST['username'])) {
   <form class="modal-content animate" action="./" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
     </div>
 
     <div class="container">
