@@ -1,3 +1,7 @@
+<?php
+  require('../abs/navBar.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,25 +21,10 @@
 <!-- //accent color #f2cf33 -->
 <!-- //main color  #7dc9b5 -->
 <body>
-
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">  
-			<img src="./media/logo.jpg" width="30" height="30" alt=""> 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-			<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
-				<a class="nav-item nav-link" href="#">MANAGE REQUESTS</a>
-				<a class="nav-item nav-link" href="#">TODAY'S SCHEDULE</a>
-				<a class="nav-item nav-link" href="#">VENDORS</a>
-				<a class="nav-item nav-link" href="#">CALENDAR</a>
-	
-
-			</div>
-		</div>
-	</nav>
+<?php
+  $path = "../abs/media/logo.jpg";
+  print_manarger_navbar($path);
+?>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<h1 class="display-4">HO Manager Langing Page</h1>

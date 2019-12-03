@@ -23,7 +23,7 @@
 <body>
 <?php
   $path = "../abs/media/logo.jpg";
-  print_navbar($path);
+  print_home_owner_navbar($path);
 ?>
 
   <div class="jumbotron jumbotron-fluid">
@@ -33,7 +33,6 @@
     </div>
   </div>
   <div class="container">
-
     <div class="row">
       <button class="col btn btn-lg bg-primary"> content
       </button>
