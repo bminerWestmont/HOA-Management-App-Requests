@@ -25,7 +25,7 @@
   print_home_owner_navbar($path);
 ?>
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron jumbotron-fluid jumboBG">
         <div class="container">
             <h1 class="display-4">HO New Request</h1>
             <p class="lead">This is where to make a new request</p>

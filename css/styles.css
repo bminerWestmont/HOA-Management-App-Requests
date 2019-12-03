@@ -105,3 +105,8 @@
   .borderColor{
     outline-color: 2px #5ec3c4;
   }
+
+  .jumboBG{
+    background-color: #5ec3c4
+    opacity: 0.8;
+  }

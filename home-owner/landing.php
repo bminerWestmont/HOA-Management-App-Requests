@@ -57,19 +57,19 @@
     <div class="row top-buffer">
       <div class="col"> <h2>New Request:</h2></div>
       <div class="col-1"></div>
-      <div class="col h2"> Previous Requests:</div>
+      <div class="col"> <h2>Previous Requests:</h2></div>
     </div>
 
    <div class="row">
-      <div class="col h2"> Submit a new</div>
+      <div class="col"> <h2>Submit a new</h2></div>
       <div class="col-1"></div>
-      <div class="col h2"> See your previous</div>
+      <div class="col"> <h2>See your previous</h2></div>
     </div>
 
   <div class="row">
-        <div class="col h2"> maintenance request</div>
+        <div class="col"><h2> maintenance request</h2></div>
         <div class="col-1"></div>
-        <div class="col h2"> maintenance requests</div>
+        <div class="col"><h2> maintenance requests</h2></div>
       </div>
 
 
