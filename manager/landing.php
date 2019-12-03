@@ -1,5 +1,6 @@
 <?php
   require('../abs/navBar.php');
+  $filename = "./" . basename(__FILE__);
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +25,7 @@
 <body>
 <?php
   $image_path = "../abs/media/logo.jpg";
-  print_manager_navbar($path);
+  print_manager_navbar($image_path, $filename);
 ?>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
