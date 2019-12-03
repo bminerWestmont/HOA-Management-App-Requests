@@ -27,19 +27,19 @@
   print_home_owner_navbar($image_path, $filename);
 ?>
 
- <div class="jumbotron jumbotron-fluid">
+ <div class="jumbotron jumbotron-fluid secondaryYllw">
   <div class="container">
-   <h1 class="display-4">HO Requests</h1>
-   <p class="lead">This is the requests page for a homeowner in our HOA app</p>
+   <h1 class="display-4">Previously Submitted Requests</h1>
+   <p class="lead">Below you will find all of your previously submitted requests that have been fulfilled or are in the proccess of being finished. </p>
  </div>
 </div>
 
 
 <div class="container">
   <div class="row">
-   <div class="col border">ALL RECEIVED REQUESTS</div>
-   <div class="col-sm-3 border">STATUS</div>
-   <div class="col-sm-4 border">DATE FULFILLED</div>			
+   <div class="col border jumboBG">ALL RECEIVED REQUESTS</div>
+   <div class="col-sm-3 border jumboBG">STATUS</div>
+   <div class="col-sm-4 border jumboBG">DATE FULFILLED</div>			
  </div>
  <div class="row">
    <div class="col border">request details</div>

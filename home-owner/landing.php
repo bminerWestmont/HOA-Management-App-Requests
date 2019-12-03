@@ -63,10 +63,11 @@ $filename = "./" . basename(__FILE__);
     </div>
 
     <div class="row">
-      <div class="col"> <p>Submit a new maintenance request</p></div>
+      <div class="col"> <p>Submit a new  request</p></div>
       <div class="col-1"></div>
-      <button onclick="window.location.href='./newRequest.php';" class="col btn-sm btn jumboYllw">New Request</button>
+        <button onclick="window.location.href='./newRequest.php';" class="col btn-sm btn jumboYllw"> Submit New Request</button>
       <div class="col-1"></div>
+      
 
     <div class="row">
       <div class="col"><p> Take a look at previous maintenance requests</p></div>

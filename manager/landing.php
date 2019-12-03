@@ -47,6 +47,8 @@ $filename = "./" . basename(__FILE__);
 						<li class="list-group-item"><span class="title">Light in hallway flickering    </span><span class="user text-muted">John B. #C219</span><div class="ticket-num text-muted">Ticket #69420</div></li>
 						<li class="list-group-item"><span class="title">Pool filter not working   </span><span class="user text-muted">Frank C. #A157</span><div class="ticket-num text-muted">Ticket #11111</div></li>
 					</ul>
+					<button onclick="window.location.href='./manageRequests.php';" class="col btn-sm btn jumboBG">Go to Page --></button>
+      <div class="col-1"></div>
 				</div>
 			</div>
 			<div class="col-md-5 padding-bottom ">
@@ -59,6 +61,8 @@ $filename = "./" . basename(__FILE__);
 						<li class="list-group-item"><span class="title">Plummer fixing pipes  </span><span class="user text-muted">General Building  </span><div class="ticket-num text-muted">Ticket #77712</div></li>
 						<li class="list-group-item"><span class="title">Fix outside gate  </span><span class="user text-muted">David D. #A764</span><div class="ticket-num text-muted">Ticket #10076</div></li>
 					</ul>
+					<button onclick="window.location.href='./todaysSchedule.php';" class="col btn-sm btn jumboYllw">Go to Page --></button>
+      <div class="col-1"></div>
 				</div>
 			</div>
 		</div>

@@ -29,7 +29,7 @@
   print_home_owner_navbar($image_path, $filename);
 ?>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid secondaryYllw">
       <div class="container">
         <h1 class="display-4">Contact</h1>
         <p class="lead">Have any questions or concerns around the building? Feel free to contact us!</p>
@@ -37,11 +37,16 @@
     </div>
     <div class="container">
 
-      <h1> Manager: Jane Doe </h1>
-           <h2> 805.234.5567 </h2>
+      <h1> Manager:  </h1> <h2> Jane Doe </h2>
+           <h3> 805.234.5567 </h3>
 
-      <h1> Managing Comany: HOA Inc. </h1>
-           <h2> 1.800.334.3322 </h2>
+      <h1> Managing Comany: </h1> <h2> HOA Inc. </h2>
+           <h3> 1.800.334.3322 </h3>
+      <h1> Board Members: </h1>
+      <h2>  Lisa Dotson </h2>
+           <h3> 805.234.5567 </h3>
+           <h2>  Greg Yegerd </h2>
+           <h3> 805.221.1223 </h3>
+            <h2> Arnaldi Cofefe </h2>
+           <h3> 542.112.4567 </h3>
 
-      <h1> Board Members:  </h1>
-           <h2> 805.234.5567 </h2>
