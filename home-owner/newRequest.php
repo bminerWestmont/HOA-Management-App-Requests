@@ -1,5 +1,7 @@
 <?php
   require('../abs/navBar.php');
+  $filename = "./" . basename(__FILE__);
+
 ?>
 
 <!DOCTYPE html>
@@ -22,10 +24,10 @@
 <body>
 <?php
   $image_path = "../abs/media/logo.jpg";
-  print_home_owner_navbar($path);
+  print_home_owner_navbar($image_path, $filename);
 ?>
 
-<div class="jumbotron jumbotron-fluid jumboBG">
+<div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">HO New Request</h1>
             <p class="lead">This is where to make a new request</p>

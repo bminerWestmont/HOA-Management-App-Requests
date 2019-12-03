@@ -37,8 +37,8 @@ function print_home_owner_navbar ($image_path, $current_url) {
   );
 
   $navbar_beginning = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">" .
-    "<a class=\"navbar-brand\" href=\"#\">" .
-      "<img src=\"" . $image_path . "\" width=\"30\" height=\"30\" alt=\"\">" .
+    "<a class=\"navbar-brand\" href=\"./landing.php\">" .
+      "<img src=\"" . $image_path . "\" width=\"69\" height=\"42.0\" alt=\"\">" .
     "</a></a>" .
     "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">" .
       "<span class=\"navbar-toggler-icon\"></span>" .
@@ -49,8 +49,8 @@ function print_home_owner_navbar ($image_path, $current_url) {
   $navbar_items = "";
 
   for ($i = 0; $i < count($items_details); $i++) {
-    $is_active = ($current_url == $items_details[$i]["text"]["href"]);
-    $navbar_items .= create_manager_navbar_item($items_details[$i]["text"]["href"], $is_active);
+    $is_active = ($current_url == $items_details[$i]["href"]);
+    $navbar_items .= create_manager_navbar_item($items_details[$i]["text"], $items_details[$i]["href"], $is_active);
   }
 
   echo $navbar_beginning . $navbar_items . $navbar_end;

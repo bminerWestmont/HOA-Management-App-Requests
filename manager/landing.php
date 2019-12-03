@@ -1,6 +1,6 @@
 <?php
-  require('../abs/navBar.php');
-  $filename = "./" . basename(__FILE__);
+require('../abs/navBar.php');
+$filename = "./" . basename(__FILE__);
 ?>
 
 <!DOCTYPE html>
@@ -23,10 +23,10 @@
 <!-- //accent color #f2cf33 -->
 <!-- //main color  #7dc9b5 -->
 <body>
-<?php
-  $image_path = "../abs/media/logo.jpg";
-  print_manager_navbar($image_path, $filename);
-?>
+	<?php
+	$image_path = "../abs/media/logo.jpg";
+	print_manager_navbar($image_path, $filename);
+	?>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
 			<h1 class="display-4">HO Manager Langing Page</h1>
@@ -79,8 +79,8 @@
 			<div class="col-sm-2"></div>
 			<div class="col border">today</div>
 		</div>
--->
-	</div>
+	-->
+</div>
 
 
 </body>

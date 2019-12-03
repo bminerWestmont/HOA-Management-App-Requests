@@ -1,5 +1,6 @@
 <?php
-  require('../abs/navBar.php');
+require('../abs/navBar.php');
+$filename = "./" . basename(__FILE__);
 ?>
 
 <!DOCTYPE html>
@@ -19,15 +20,15 @@
   <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
-   
+  
 </head>
 <!-- //accent color #f2cf33 -->
 <!-- //main color  #7dc9b5 -->
 <body>
-<?php
+  <?php
   $image_path = "../abs/media/logo.jpg";
-  print_home_owner_navbar($path);
-?>
+  print_home_owner_navbar($image_path, $filename);
+  ?>
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
@@ -60,21 +61,21 @@
       <div class="col"> <h2>Previous Requests:</h2></div>
     </div>
 
-   <div class="row">
+    <div class="row">
       <div class="col"> <h2>Submit a new</h2></div>
       <div class="col-1"></div>
       <div class="col"> <h2>See your previous</h2></div>
     </div>
 
-  <div class="row">
-        <div class="col"><h2> maintenance request</h2></div>
-        <div class="col-1"></div>
-        <div class="col"><h2> maintenance requests</h2></div>
-      </div>
+    <div class="row">
+      <div class="col"><h2> maintenance request</h2></div>
+      <div class="col-1"></div>
+      <div class="col"><h2> maintenance requests</h2></div>
+    </div>
 
 
-</body>
-</html>
+  </body>
+  </html>
 
 <!-- 
 <button onclick="window.location.href='./receivedRequests.php';" class="col btn-lg btn bg-primary">New Request</button>
