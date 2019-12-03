@@ -27,7 +27,7 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="../index.php">HOME <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="../requests/index.php">NEW REQUEST</a>
       <a class="nav-item nav-link" href="../ReceivedRequests/index.php">RECEIVED REQUESTS</a>
       <a class="nav-item nav-link" href="#">BUILDING MAINTENANCE</a>
@@ -41,7 +41,16 @@
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">Contact</h1>
-        <p class="lead">This is the contact page</p>
+        <p class="lead">Have any questions or concerns around the building? Feel free to contact us!</p>
       </div>
     </div>
     <div class="container">
+
+      <h1> Manager: Jane Doe </h1>
+           <h2> 805.234.5567 </h2>
+
+      <h1> Managing Comany: HOA Inc. </h1>
+           <h2> 1.800.334.3322 </h2>
+
+      <h1> Board Members:  </h1>
+           <h2> 805.234.5567 </h2>
