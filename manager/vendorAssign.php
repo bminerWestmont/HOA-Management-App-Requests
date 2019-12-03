@@ -1,5 +1,6 @@
 <?php
   require('../abs/navBar.php');
+  $filename = "./" . basename(__FILE__);
 ?>
 
 <!DOCTYPE html>
@@ -17,23 +18,13 @@
 
   <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/styles.css">
-
-  <style type="text/css">
-
-    .top-buffer{margin-top: 20px;}
-
-    .row{height: 60px;}
-
-    .headerFont{font-size: 30px;}
-
-  </style>
 </head>
 <!-- //accent color #f2cf33 -->
 <!-- //main color  #7dc9b5 -->
 <body>
 <?php
-  $path = "../abs/media/logo.jpg";
-  print_manager_navbar($path);
+  $image_path = "../abs/media/logo.jpg";
+  print_manager_navbar($image_path, $filename);
 ?>
 
   <div class="jumbotron jumbotron-fluid">
