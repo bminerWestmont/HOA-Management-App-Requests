@@ -23,7 +23,7 @@
 <body>
 <?php
   $path = "../abs/media/logo.jpg";
-  print_manarger_navbar($path);
+  print_manager_navbar($path);
 ?>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
