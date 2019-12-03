@@ -29,15 +29,15 @@
 
 <div class="jumbotron jumbotron-fluid jumboBG">
     <div class="container">
-        <h1 class="display-4">We have received your request!</h1>
-        <p class="lead"> !!!  </p>
+        <h1 class="display-4">We Have Received Your Request!</h1>
+        <p> Ticket Number: 33467 </p>
+        <h1>We will get on this right away. An email will be sent to dantheman@hotmail.com containing your ticket number and status. If this is an emergeny, please contact the manager, Jane Doe, at 805.223.5432. <br> <br> Thank you! </h1>
+
     </div>
 </div>
 
-<h1> Request Recieved! Management will get right on it and notify you when we have begun working on your request. </h1>
-
 <<div class="row">
-        <a  href="../landing.php" class="col-sm btn btn-lg bg-primary" href="./receivedRequests.php">Go Home</a>
+        <a  href="./landing.php" class="col-sm btn btn-lg mainYllw" href="./receivedRequests.php">Go Home</a>
 <div class="col-sm-1"></div>
 
 
