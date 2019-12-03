@@ -37,14 +37,14 @@ function print_home_owner_navbar ($image_path, $current_url) {
   );
 
   $navbar_beginning = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">" .
-    "<a class=\"navbar-brand\" href=\"./landing.php\">" .
-      "<img src=\"" . $image_path . "\" width=\"69\" height=\"42.0\" alt=\"\">" .
-    "</a></a>" .
-    "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">" .
-      "<span class=\"navbar-toggler-icon\"></span>" .
-    "</button>" .
-    "<div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">" .
-      "<div class=\"navbar-nav\">";
+  "<a class=\"navbar-brand\" href=\"./landing.php\">" .
+  "<img src=\"" . $image_path . "\" width=\"69\" height=\"42.0\" alt=\"\">" .
+  "</a></a>" .
+  "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">" .
+  "<span class=\"navbar-toggler-icon\"></span>" .
+  "</button>" .
+  "<div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">" .
+  "<div class=\"navbar-nav\">";
   $navbar_end = "</div></div></nav>";
   $navbar_items = "";
 
@@ -70,21 +70,21 @@ function print_manager_navbar ($image_path, $current_url) {
       "text"=>"TODAY'S SCHEDULE",
       "href"=>"./todaysSchedule.php"
     ),
-    array(
-      "text"=>"VENDORS",
-      "href"=>"./vendorAssign.php"
-    )
+    // array(
+    //   "text"=>"VENDORS",
+    //   "href"=>"./vendorAssign.php"
+    // )
   );
 
   $navbar_beginning = "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">" .
-    "<a class=\"navbar-brand\" href=\"./landing.php\">" .
-      "<img src=\"" . $image_path . "\" width=\"69\" height=\"42.0\" alt=\"\">" .
-    "</a></a>" .
-    "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">" .
-      "<span class=\"navbar-toggler-icon\"></span>" .
-    "</button>" .
-    "<div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">" .
-      "<div class=\"navbar-nav\">";
+  "<a class=\"navbar-brand\" href=\"./landing.php\">" .
+  "<img src=\"" . $image_path . "\" width=\"69\" height=\"42.0\" alt=\"\">" .
+  "</a></a>" .
+  "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavAltMarkup\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">" .
+  "<span class=\"navbar-toggler-icon\"></span>" .
+  "</button>" .
+  "<div class=\"collapse navbar-collapse\" id=\"navbarNavAltMarkup\">" .
+  "<div class=\"navbar-nav\">";
   $navbar_end = "</div></div></nav>";
   $navbar_items = "";
 
