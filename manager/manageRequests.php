@@ -36,12 +36,65 @@
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-6 border headerFont"> Homeowner Request Information</div>
+      <div class="col border headerFont mainBlue"> Homeowner Request Information</div>
     </div>
 
-    <div class="row top-buffer">
-      <div class="col-3 border bg-light"> Ticket #1234 </div>
+    <div class=" row rowSm top-buffer">
+      <div class="col-3  bg-light"> Ticket #1234 </div>
     </div>
+
+    <div class=" row rowBig top-buffer">
+      <div class="col-5 border secondaryColor">Description of Request...</div>
+      <div class="col-1"></div>
+      <textarea class="col-5 border secondaryColor" placeholder="Manager notes"></textarea>
+    </div>
+
+    <div class="row rowSm top-buffer">
+      <div class="col-1 col-buffer secondaryColor">Unit 15</div>
+      <div class="col-2 col-buffer secondaryColor">Dan Shank</div>
+      <div class="col-1 col-buffer secondaryColor">12-1-19</div>
+      <div class="col-1 col-buffer secondaryColor">Pending</div>
+    </div>
+
+    <div class="row rowHeader">
+       <div class="col border top-buffer headerFont mainBlue">Vendors</div>
+    </div>
+
+    <div class="row rowSm top-buffer">
+      <div class="col-5 secondaryColor"> this where you can search for vendors </div>
+      <div class="col-2"></div>
+      <div class="col-2">Apt. Date</div>
+      <div class="col-1"></div>
+      <div class="col-2">Apt. Time</div>
+    </div>
+
+    <div class="row rowSm">
+      <div class="col-5 secondaryColor"></div>
+      <div class="col-2"></div>
+      <textarea class="col-1 secondaryColor"></textarea>
+      <div class="col-2"></div>
+      <textarea class="col-1 secondaryColor"></textarea>
+    </div>
+
+    <div class="row rowSm top-buffer">
+      <div class="col-5 secondaryColor"></div>
+      <div class="col-2"></div>
+      <div class="col-2">Bid Estimate</div>
+      <div class="col-1"></div>
+      <button onclick="window.location.href='./landing.php';" class="col-2 btn mainYllw">Update & Submit</button>
+    </div>
+
+    <div class="row rowSm">
+      <div class="col-5 secondaryColor"></div>
+      <div class="col-2"></div>
+      <textarea class="col-1 secondaryColor"></textarea>
+    </div>
+
+
+
+
+
+
 
 
 

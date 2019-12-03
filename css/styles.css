@@ -111,8 +111,26 @@ ol {
 .top-buffer{
   margin-top: 20px;
 }
+
+.col-buffer{
+  margin-right: 5px;
+}
 .row{
   height: 60px;
+}
+
+/*this row is supposed to be the same size as the first header in manage requests but some fucky shit goin on*/
+.rowHeader{
+  height: 80px;
+}
+.rowBig{
+  height: 120px;
+}
+.rowSm{
+  height: 30px;
+}
+.rowXs{
+  height: 10px;
 }
 .headerFont{
   font-size: 30px;
