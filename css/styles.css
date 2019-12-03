@@ -1,5 +1,4 @@
 body {
-  body {
   /*padding: 1em;*/
   background-color: #eee;
   font-family:Gilroy, sans-serif;
@@ -99,5 +98,13 @@ ol {
 .headerFont {
   font-size: 30px;
 }
-}
 
+.top-buffer{
+  margin-top: 20px;
+}
+.row{
+  height: 60px;
+}
+.headerFont{
+  font-size: 30px;
+}
