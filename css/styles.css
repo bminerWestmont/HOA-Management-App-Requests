@@ -1,103 +1,108 @@
-body {
   body {
-  /*padding: 1em;*/
-  background-color: #eee;
-  font-family:Gilroy, sans-serif;
-  font-size: 16px;
-  margin: 0;
+    /*padding: 1em;*/
+    background-color: #eee;
+    font-family:Gilroy, sans-serif;
+    font-size: 16px;
+    margin: 0;
 
-}
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Gilroy, Arial, sans-serif;
-}
+  }
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Gilroy, Arial, sans-serif;
+  }
 
-#welcome-title {
-  font-family: Arial, sans-serif !important;
-}
+  #welcome-title {
+    font-family: Arial, sans-serif !important;
+  }
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
 
-/* Set a style for all buttons */
-button {
-  background-color: #5ec3c4;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-.button {
-  background-color: #e3d052;
-  color: #dbac35;
-  padding: 3px 6px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border: none;
-}
+  /* Set a style for all buttons */
+  button {
+    background-color: #5ec3c4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .button {
+    background-color: #e3d052;
+    color: #dbac35;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border: none;
+  }
 
-button:hover {
-  opacity: 0.8;
-}
+  button:hover {
+    opacity: 0.8;
+  }
 
-textarea {
-  font-family: Gilroy;
-  font-size: 16px;
-}
+  textarea {
+    font-family: Gilroy;
+    font-size: 16px;
+  }
 
-h1 {
-  font-size: 24px;
-}
+  h1 {
+    font-size: 24px;
+  }
 
-h2 {
-  font-size: 20px;
-}
+  h2 {
+    font-size: 20px;
+  }
 
-i {
-  font-size: 12px;
-}
+  i {
+    font-size: 12px;
+  }
 
-ol {
-  margin: 0px;
-  padding-left: 0px;
-}
+  ol {
+    margin: 0px;
+    padding-left: 0px;
+  }
 
-.content {
-  margin: 0px 12px;
-}
+  .content {
+    margin: 0px 12px;
+  }
 
-.block {
-  background: #EAEAFA;
-  padding: 10px 24px;
-  margin: 12px 0px;
-  border-radius: 8px;
-}
+  .block {
+    background: #EAEAFA;
+    padding: 10px 24px;
+    margin: 12px 0px;
+    border-radius: 8px;
+  }
 
 
-.button_submit {
-  padding: 6px 10px;
-  font-size: 14px;
-}
+  .button_submit {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
 
-.button_toolbar {
-  font-size: 16px;
-  margin: 0px 24px;
-}
+  .button_toolbar {
+    font-size: 16px;
+    margin: 0px 24px;
+  }
 
-.headerFont {
-  font-size: 30px;
-}
-}
+  .headerFont {
+    font-size: 30px;
+  }
 
+  .top-buffer{
+    margin-top: 100px;
+  }
+
+  .borderColor{
+    outline-color: 2px #5ec3c4;
+  }
