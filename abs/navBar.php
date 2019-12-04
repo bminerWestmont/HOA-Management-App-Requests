@@ -64,7 +64,7 @@ function print_manager_navbar ($image_path, $current_url) {
     ),
     array(
       "text"=>"MANAGE REQUESTS",
-      "href"=>"./manageRequests.php"
+      "href"=>"./openRequests.php"
     ),
     array(
       "text"=>"TODAY'S SCHEDULE",
