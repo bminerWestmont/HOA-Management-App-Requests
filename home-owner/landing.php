@@ -43,23 +43,23 @@ $filename = "./" . basename(__FILE__);
       Live Update Of Request : Pending    
     </div>
 
-    <div class="row h2 secondaryColor">
+    <div class="row h2 ">
       Appointment Date: TBD
     </div>
 
-    <div class="row h2 secondaryColor">
+    <div class="row h2 ">
       Appointment Time: TBD
     </div>
 
-    <div class="row h2 secondaryColor">
+    <div class="row h2 ">
       Vendor Assigned: TBD
     </div>
 
 
     <div class="row top-buffer ">
-      <div class="col-5 mainBlue"> <h2>New Request:</h2></div>
+      <div class="col-5 secondaryColor"> <h2>New Request:</h2></div>
       <div class="col-1"></div>
-      <div class="col mainBlue"> <h2>Previous Requests:</h2></div>
+      <div class="col secondaryColor"> <h2>Previous Requests:</h2></div>
     </div>
 
     <div class="row">

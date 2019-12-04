@@ -69,16 +69,16 @@
    </div>
 
     <div class="row">
-      <div class="col border jumboBG text-center">MOST RECENT UNFULFILLED REQUESTS</div>
+      <div class="col border secondaryColor text-center">MOST RECENT UNFULFILLED REQUESTS</div>
     </div>
 
     <div class="row">
-     <div class="col-sm-2 border jumboBG">Ticket Number</div>
-     <div class="col-sm-2 border jumboBG">Title</div>
-     <div class="col-sm-2 border jumboBG">Resident</div>
-     <div class="col-sm-2 border jumboBG">Date Requested</div>  
-     <div class="col-sm-2 border jumboBG">Location</div>
-     <div class="col-sm-2 border jumboBG">Status</div>  
+     <div class="col-sm-2 border  ">Ticket Number</div>
+     <div class="col-sm-2 border ">Title</div>
+     <div class="col-sm-2 border ">Resident</div>
+     <div class="col-sm-2 border ">Date Requested</div>  
+     <div class="col-sm-2 border ">Location</div>
+     <div class="col-sm-2 border ">Status</div>  
    </div>
    <div class="row">
      <div class="col-sm-2 border">69422</div>
