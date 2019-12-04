@@ -1,16 +1,19 @@
 <?php
 
 $username_homeowner = "homeowner";
+$username_home_owner = "home-owner";
 $username_manager = "manager";
 
 if (isset($_POST['username'])) {
   $username = $_POST['username'];
 
-  if ($username === $username_homeowner) {
+  if (($username == $username_homeowner) || ($username == $username_home_owner)) {
     header("Location: ../home-owner/landing.php");
+    echo "jkhaskjhas";
   }
-  else if ($username === $username_manager) {
+  else if ($username == $username_manager) {
     header("Location: ../manager/landing.php");
+    echo "jkhaskjhas";
   }
 }
 
@@ -46,19 +49,19 @@ if (isset($_POST['username'])) {
 
 <div id="id01" class="modal">
   
-<form class="modal-content animate" action="/action_page.php" method="post">  
+<form class="modal-content animate" action="/login/index.php" method="post">  
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
     </div>
 
     <div class="container">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input type="text" placeholder="Enter Username" name="username" required>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <input type="password" placeholder="Enter Password" name="password" required>
         
-      <button type="submit">Login</button>
+      <input type="submit" class="submit btn-lg cancelbtn" name="submit" value="Login">
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember Me
       </label>
