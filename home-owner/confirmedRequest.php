@@ -37,8 +37,7 @@
 </div>
 
 <<div class="row">
-        <a  href="./landing.php" class="col-sm btn btn-lg mainYllw" href="./receivedRequests.php">Go Home</a>
-<div class="col-sm-1"></div>
+        <a  href="./landing.php" class="col-sm btn btn-lg mainYllw" href="./receivedRequests.php">Go Home</a> </div>
 
 
 

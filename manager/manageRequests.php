@@ -81,7 +81,7 @@
       <div class="col-2"></div>
       <div class="col-2">Bid Estimate</div>
       <div class="col-1"></div>
-      <button onclick="window.location.href='./landing.php';" class="col-2 btn mainYllw">Update & Submit</button>
+      <button onclick="window.location.href='./landing.php';" class="col-2 btn mainYllw">Update Request</button>
     </div>
 
     <div class="row rowSm">
