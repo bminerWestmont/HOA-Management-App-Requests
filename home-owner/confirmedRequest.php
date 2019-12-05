@@ -25,7 +25,7 @@
 <body>
 <?php
   $image_path = "../abs/media/logo.jpg";
-  print_home_owner_navbar($image_path, $cfilename);
+  print_home_owner_navbar($image_path, $filename);
 ?>
 
 <div class="jumbotron jumbotron-fluid jumboBG">
