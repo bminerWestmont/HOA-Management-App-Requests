@@ -61,13 +61,13 @@ if (isset($_POST['username'])) {
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="password" required>
         
-      <input type="submit" class="submit btn-lg cancelbtn" name="submit" value="Login">
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember Me
       </label>
     </div>
 
     <div class="container" style="background-color: white">
+       <button onclick="document.getElementById('id01').style.display='none'">Login</button>
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
     </div>
   </form>
