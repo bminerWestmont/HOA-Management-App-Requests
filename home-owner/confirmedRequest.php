@@ -28,7 +28,7 @@
   print_home_owner_navbar($image_path, $filename);
 ?>
 
-<div class="jumbotron jumbotron-fluid jumboBG">
+<div class="jumbotron jumbotron-fluid ">
     <div class="container">
         <h1 class="display-4">We Have Received Your Request!</h1>
         <p> Ticket Number: 33467 </p>
@@ -38,7 +38,7 @@
 </div>
 
 <<div class="row">
-        <a  href="./landing.php" class="col-sm btn btn-lg mainYllw" href="./receivedRequests.php">Go Home</a> </div>
+        <a  href="./landing.php" class="col-sm btn btn-lg secondaryColor" href="./receivedRequests.php">Go Home</a> </div>
 
 
 
