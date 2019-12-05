@@ -44,16 +44,16 @@
     </div>
 
     <div class=" row rowBig top-buffer">
-      <div class="col-5 border secondaryColor">Description of Request...</div>
+      <div class="col-5 border notTypeColor">The light fixture outside of my apartment broke and there is glass in the hallway.</div>
       <div class="col-1"></div>
       <textarea class="col-5 border secondaryColor" placeholder="Manager notes"></textarea>
     </div>
 
     <div class="row rowSm top-buffer">
-      <div class="col-1 col-buffer secondaryColor">Unit 15</div>
-      <div class="col-2 col-buffer secondaryColor">Dan Shank</div>
-      <div class="col-1 col-buffer secondaryColor">12-1-19</div>
-      <div class="col-1 col-buffer secondaryColor">Pending</div>
+      <div class="col-1 col-buffer notTypeColor">Unit 15</div>
+      <div class="col-2 col-buffer notTypeColor">Dan Shank</div>
+      <div class="col-1 col-buffer notTypeColor">12-1-19</div>
+      <div class="col-1 col-buffer notTypeColor">Pending</div>
     </div>
 
     <div class="row rowHeader">
@@ -81,7 +81,7 @@
       <div class="col-2"></div>
       <div class="col-2">Bid Estimate</div>
       <div class="col-1"></div>
-      <button onclick="window.location.href='./landing.php';" class="col-2 btn mainYllw">Update Request</button>
+      <button onclick="window.location.href='./updatedRequestConfirm.php';" class="col-2 btn mainYllw">Update Request</button>
     </div>
 
     <div class="row rowSm">

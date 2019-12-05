@@ -157,6 +157,9 @@ ol {
 .mainYllw {
   background-color: #d6b745;
 }
+.notTypeColor{
+  background-color: #d9d9d9;
+}
 
 .padding{
   padding-bottom: 10%;

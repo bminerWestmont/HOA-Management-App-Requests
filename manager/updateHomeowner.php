@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 
-    <title>HOA Home-Owner Page</title>
+    <title>HOA Confirmed submit page</title>
 
     <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -25,20 +25,20 @@
 <body>
 <?php
   $image_path = "../abs/media/logo.jpg";
-  print_home_owner_navbar($image_path, $cfilename);
+  print_manager_navbar($image_path, $filename);
 ?>
 
-<div class="jumbotron jumbotron-fluid jumboBG">
+<div class="jumbotron jumbotron-fluid ">
     <div class="container">
-        <h1 class="display-4">We Have Received Your Request!</h1>
+        <h1 class="display-4">The Homeowner has been notified of your changes.</h1>
         <p> Ticket Number: 33467 </p>
-        <h1>We will get on this right away. An email will be sent to dantheman@hotmail.com containing your ticket number and status. If this is an emergeny, please contact the manager, Jane Doe, at 805.223.5432. <br> <br> Thank you! </h1>
+        <h1>An email was sent to the Homeowner regarding your changes to their request. </h1>
 
     </div>
 </div>
 
 <<div class="row">
-        <a  href="./landing.php" class="col-sm btn btn-lg mainYllw" href="./receivedRequests.php">Go Home</a> </div>
+        <a  href="./landing.php" class="col-sm btn btn-lg secondaryColor" href="./receivedRequests.php">Go Home</a> </div>
 
 
 
